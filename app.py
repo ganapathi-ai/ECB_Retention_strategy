@@ -863,17 +863,4 @@ with tab7:
     fig_sankey.update_layout(**dark(title_text="Customer Flow: Geography → Engagement Tier → Churn Status", height=600))
     st.plotly_chart(fig_sankey, use_container_width=True)
 
-# ─── FOOTER ──────────────────────────────────────────────────────────────────
-st.markdown("---")
-f1,f2,f3 = st.columns(3)
-with f1:
-    st.markdown('<div style="font-size:.73rem;color:#475569">🏦 ECB Retention Intelligence Platform</div>',
-                unsafe_allow_html=True)
-with f2:
-    st.markdown('<div style="font-size:.73rem;color:#475569;text-align:center">'
-                '📊 European_Bank.csv — 10,000 Records | All KPIs Verified Against Raw Data</div>',
-                unsafe_allow_html=True)
-with f3:
-    st.markdown(f'<div style="font-size:.73rem;color:#475569;text-align:right">'
-                f'🗓️ {datetime.now().strftime("%B %d, %Y")}</div>',
-                unsafe_allow_html=True)
+
