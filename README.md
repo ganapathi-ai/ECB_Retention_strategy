@@ -48,14 +48,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### 3. Generate Research Paper
 
-```bash
-python generate_manuscript.py
-```
-Output: `ECB_Research_Manuscript.docx` (15-20 pages, peer-review ready)
-
-### 4. Verify Stats Against Raw Data
+### 3. Verify Stats Against Raw Data
 
 ```bash
 python compute_stats.py
@@ -231,8 +225,5 @@ python compute_stats.py
 
 GitHub: https://github.com/ganapathi-ai/ECB_Retention_strategy
 
-**Author:** Ganapathi
-**Institution:** European Centre for Financial Intelligence Research (ECFIR)  
-**Year:** 2025  
-**Journal:** Journal of Banking Analytics & Financial Intelligence, Vol. 7, No. 2  
-**DOI:** 10.52814/JBAFI.2025.0472
+**Author:** Ganapathi kakarla
+
