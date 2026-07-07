@@ -11,10 +11,6 @@ This repository contains:
 3. **`compute_stats.py`** — Ground-truth statistics extractor (verified against raw data)
 4. **`data/`** — Raw (14 cols) and transformed (56 analytical cols, PII-free) datasets
 
-> **Note:** The research manuscript (`ECB_Research_Manuscript.docx`) and its generator (`generate_manuscript.py`) are **not included in this repository** — they are available locally. Run `python generate_manuscript.py` locally to produce the 15–20 page Word document.
-
-> **✅ 107/107 CROSS-FILE CHECKS PASSED | 155/155 DATASET INTEGRITY CHECKS PASSED**
-
 ---
 
 ## 📁 Project Structure
