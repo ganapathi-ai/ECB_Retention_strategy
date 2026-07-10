@@ -22,13 +22,13 @@ This repository contains:
 ├── 📄 compute_stats.py                  # Ground-truth stats extractor
 ├── 📄 README.md                         # This file
 ├── 📄 requirements.txt                  # Python dependencies
-├── 📄 .gitignore                        # Excludes manuscript & generator
+├── 📄 .gitignore                      
 └── 📊 data/
     ├── European_Bank.csv                # Raw dataset (10,000 rows, 14 vars)
     └── European_Bank_Transformed.csv    # Analytical dataset (56 cols, PII-free)
 ```
 
-> ℹ️ `ECB_Research_Manuscript.docx` and `generate_manuscript.py` are **local only** (gitignored). They are never pushed to GitHub.
+
 
 ## 🚀 Quick Start
 
